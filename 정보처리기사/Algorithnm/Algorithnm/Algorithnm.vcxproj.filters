@@ -15,7 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="수열1.cpp">
+    <ClCompile Include="수열1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수열2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수열2-순서에 의한 반복 계산.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="수열2-홀짝 판별을 이용한 반복계산.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

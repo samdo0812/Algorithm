@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//1+2+3+ ~ + 100 
 int main() {
 	int i, j;
 
