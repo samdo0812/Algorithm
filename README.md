@@ -1,5 +1,7 @@
 # Algorithm
 
-● Algorithm of BeakJoon website 
+● Algorithm of BeakJoon website
+
 ● Basic Algorithm
+
 ● Etc
