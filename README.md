@@ -1,6 +1,6 @@
 # Algorithm
 
-● Algorithm of BeakJoon website
+● Algorithm of BaekJoon website
 
 ● Basic Algorithm
 
