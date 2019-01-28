@@ -27,5 +27,8 @@
     <ClCompile Include="op.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
