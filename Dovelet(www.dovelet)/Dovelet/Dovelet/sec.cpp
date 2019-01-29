@@ -1,17 +1,38 @@
-#include <stdio.h>
+#include <stdio.h> 
 
-int main() {
-	
-	int time = 0;
-	int day, hour, min, sec;
+int main(void)
+{
+	int iSecond = 0;
+	scanf("%d", &iSecond);
+	if (iSecond > 10000000)
+	{
+		return -1;
+	}
 
-	scanf("%d" , &time);
+	int is = 0, im = 0, ih = 0, id = 0;
+	while (iSecond > 0)
+	{
+		is++;
+		iSecond--;
+		if (is > 59)
+		{
+			is = 0;
+			im++;
+		}
 
-	day = time / 86400;
-	hour = (time % 86400) / 1440;
-	min = ((time % 86400) % 1440) / 60;
-	sec = ((time % 86400) % 1440) % 60;
+		if (im > 59)
+		{
+			im = 0;
+			ih++;
+		}
 
-	printf("%d %d %d %d", day, hour, min, sec);
-	
+		if (ih > 23)
+		{
+			ih = 0;
+			id++;
+		}
+	}
+
+	printf("%d %d %d %d", id, ih, im, is);
+	return 0;
 }
