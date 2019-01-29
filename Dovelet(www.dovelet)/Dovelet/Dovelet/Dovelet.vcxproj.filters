@@ -36,5 +36,8 @@
     <ClCompile Include="CtoF.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="q_r.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
