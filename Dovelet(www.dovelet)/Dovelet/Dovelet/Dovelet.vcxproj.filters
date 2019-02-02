@@ -51,5 +51,8 @@
     <ClCompile Include="koi_watch.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="r2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
