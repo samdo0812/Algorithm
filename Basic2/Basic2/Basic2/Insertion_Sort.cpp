@@ -16,7 +16,7 @@ int main() {
 	for (int i = 0; i < 9; i++)
 	{
 		j = i;
-		while (array[j] > array[j+1])
+		while (j >=  0 && array[j] > array[j+1])
 		{
 			temp = array[j];
 			array[j] = array[j + 1];
