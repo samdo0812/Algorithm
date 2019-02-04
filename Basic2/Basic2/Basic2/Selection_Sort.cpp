@@ -2,7 +2,6 @@
 
 /*
 	1 2 3 4 5 6 7 8 9 10
-
 	10 + 9 + 8 + ... + 1
 	=> 10 * (10 +1) /2 = 55
 	=> N * (N +1) / 2
@@ -21,15 +20,15 @@ int main() {
 		min = 9999;
 		for (j = i; j < 10; j++)
 		{
-			if (min > array[j])			
+			if (min > array[j])
 			{
-				min = array[j];	
-				index = j;			
+				min = array[j];
+				index = j;
 			}
 		}
-		temp = array[i];				
-		array[i] = array[index];		
-		array[index] = temp;			
+		temp = array[i];
+		array[i] = array[index];
+		array[index] = temp;
 	}
 
 	for (i = 0; i < 10; i++)
@@ -37,4 +36,3 @@ int main() {
 		printf("%d ", array[i]);
 	}
 }
- 
