@@ -51,5 +51,8 @@
     <ClCompile Include="12.소수판별-나누어 떨어질 때.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="소스.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
