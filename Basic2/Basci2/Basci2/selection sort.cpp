@@ -21,15 +21,15 @@ int main() {
 		min = 9999;
 		for (j = i; j < 10; j++)
 		{
-			if (min > array[j])
+			if (min > array[j])			
 			{
-				min = array[j];
-				index = j;
+				min = array[j];	
+				index = j;			
 			}
 		}
-		temp = array[i];
-		array[i] = array[index];
-		array[index] = temp;
+		temp = array[i];				
+		array[i] = array[index];		
+		array[index] = temp;			
 	}
 
 	for (i = 0; i < 10; i++)
@@ -37,3 +37,4 @@ int main() {
 		printf("%d ", array[i]);
 	}
 }
+ 
