@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Selection_Sort.cpp">
+    <ClCompile Include="Quick_Sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Bubble_Sort.cpp">
+    <ClCompile Include="Insertion_Sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Insertion_Sort.cpp">
+    <ClCompile Include="Bubble_Sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Selection_Sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
