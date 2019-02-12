@@ -14,19 +14,20 @@ int main() {
 		while (k%j != 0)
 		{
 			j++;
-			if (k==j)
-			{
-				hap += k;
-			}
-			if (k<A)
-			{
-				k++;
-			}
-			else
-			{
-				printf("%d " , hap);
-				break;
-			}
+		}
+			
+		if (k==j)
+		{
+			hap += k;
+		}
+		if (k<A)
+		{
+			k++;
+		}
+		else
+		{
+			printf("%d " , hap);
+			break;
 		}
 	}
 
