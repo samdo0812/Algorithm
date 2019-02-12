@@ -20,7 +20,7 @@ int main() {
 			}
 			if (k<A)
 			{
-				hap += k;
+				k++;
 			}
 			else
 			{
