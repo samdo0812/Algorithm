@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//1+2+3+ ~ + 10
+//소수의 합
 int main() {
 	int A = 0, hap = 0;
 	int k = 2;	//소수인지 판별할 숫자를 2부터 시작
