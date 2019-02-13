@@ -149,7 +149,10 @@
     <ClCompile Include="12.소수판별-나누어 떨어질 때.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="14.소수의 개수 구하기.c" />
+    <ClCompile Include="14.소수의 개수 구하기.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="15.최대공약수_최소공배수.c" />
     <ClCompile Include="2.수열1-홀수의합.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
