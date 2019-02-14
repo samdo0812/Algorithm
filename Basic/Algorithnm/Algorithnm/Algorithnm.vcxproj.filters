@@ -60,5 +60,8 @@
     <ClCompile Include="15.최대공약수_최소공배수.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16.약수 구하기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
