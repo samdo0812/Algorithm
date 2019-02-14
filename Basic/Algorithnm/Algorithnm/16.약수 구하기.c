@@ -23,7 +23,7 @@ int main() {
 		}
 		else
 		{
-			printf("%d " , b);
+			//printf("%d " , b);
 
 			for (int i = 0; i <= d; i++)
 			{
