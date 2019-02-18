@@ -30,7 +30,10 @@
     <ClCompile Include="Merge_Sort.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="a.cpp">
+    <ClCompile Include="Sort_Function.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort_Function_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
