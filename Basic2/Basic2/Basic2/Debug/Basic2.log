@@ -1,2 +1,3 @@
-﻿  Heap_Sort.c
+﻿  Counting_Sort.c
+c:\users\samdo\source\repos\basic2\basic2\counting_sort.c(4): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
   Basic2.vcxproj -> C:\Users\SAMDO\source\repos\Basic2\Debug\Basic2.exe
