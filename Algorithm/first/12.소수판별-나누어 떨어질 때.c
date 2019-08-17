@@ -16,7 +16,7 @@ int main() {
 		}
 		else
 		{
-			printf("소수 ");
+			printf("소수 아님");
 		}
 	
 }
