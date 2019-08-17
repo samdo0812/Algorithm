@@ -12,11 +12,11 @@ int main() {
 
 		if (a == j)
 		{
-			printf("¼Ò¼ö");
+			printf("ì†Œìˆ˜");
 		}
 		else
 		{
-			printf("¼Ò¼ö ¾Æ´Ô");
+			printf("ì†Œìˆ˜ ");
 		}
 	
 }
